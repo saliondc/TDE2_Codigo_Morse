@@ -66,7 +66,7 @@ public class ArvoreMorse {
     public void imprimirArvore() {
         Stack<NoMorse> pilhaGlobal = new Stack<>(100);
         pilhaGlobal.push(noRaiz);
-        int espacos = 32;
+        int espacos = 66;
         boolean linhaVazia = false;
         String separador = "-----------------------------------------------------------------";
         System.out.println(separador);
